@@ -43,16 +43,18 @@ public class Restar {
         
         b = entrada.nextInt();
     }
-    
+    // Método para imprimer el resultado
     public void imprimeResultado(){
         
-        if (a > b){
+        if (a < b){// Resta b-a si b es mayor que a
             
             resultado = (b - a);
+            
+            System.out.println("El resultado de restar " + b + " - " + a + " es: ");// imprime el resultado
         }else
-            resultado = (a - b);
+            resultado = (a - b);// resta si a es mayor que b
         
-        System.out.println("El resultado de restar "+ a +" - " + b + " es: ");
+        System.out.println("El resultado de restar "+ a +" - " + b + " es: ");// imprime el resultado
     }
     
     
