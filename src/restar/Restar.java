@@ -12,6 +12,12 @@
 // Importo el paquete java.util para poder utilizar la clase Scanner
 import java.util.*;
 public class Restar {
+   
+    
+    // Creo las variables A, B y resultado de tipo entero
+    
+    private int a, b, resultado;
+            
     
     
     
