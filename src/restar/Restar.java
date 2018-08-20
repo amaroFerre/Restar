@@ -26,7 +26,33 @@ public class Restar {
     
     public void ejecutaPrograma(){
         
-         imprimeResultado;
+        introduceNumero();
+        
+         imprimeResultado();
+    }
+    
+    //Creo el método introduceNumero
+    
+    public void introduceNumero(){
+        
+        System.out.println("Introduce el primer número: ");
+        
+        a = entrada.nextInt();
+        
+        System.out.println("Introduce el segundo número: ");
+        
+        b = entrada.nextInt();
+    }
+    
+    public void imprimeResultado(){
+        
+        if (a > b){
+            
+            resultado = (b - a);
+        }else
+            resultado = (a - b);
+        
+        System.out.println("El resultado de restar "+ a +" - " + b + " es: ");
     }
     
     
