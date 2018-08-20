@@ -17,6 +17,10 @@ public class Restar {
     // Creo las variables A, B y resultado de tipo entero
     
     private int a, b, resultado;
+    
+    // Creo un nuevo objeto de la clase Scanner
+    
+    Scanner entrada = new Scanner(System.in);
             
     
     
