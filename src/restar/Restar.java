@@ -21,6 +21,15 @@ public class Restar {
     // Creo un nuevo objeto de la clase Scanner
     
     Scanner entrada = new Scanner(System.in);
+    
+    // Creo el método ejecutaPrograma
+    
+    public void ejecutaPrograma(){
+        
+         imprimeResultado;
+    }
+    
+    
             
     
     
