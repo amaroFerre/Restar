@@ -9,7 +9,10 @@
  * @author Amarico
  */
 
-
+// Importo el paquete java.util para poder utilizar la clase Scanner
+import java.util.*;
 public class Restar {
+    
+    
     
 }
