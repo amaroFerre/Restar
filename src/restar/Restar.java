@@ -1,15 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author Amarico
- */
 
 // Importo el paquete java.util para poder utilizar la clase Scanner
+
+package restar;
 import java.util.*;
 public class Restar {
    
@@ -50,11 +43,12 @@ public class Restar {
             
             resultado = (b - a);
             
-            System.out.println("El resultado de restar " + b + " - " + a + " es: ");// imprime el resultado
-        }else
+            System.out.println("El resultado de restar " + b + " - " + a + " es: " + resultado);// imprime el resultado
+        } if(a>b){
             resultado = (a - b);// resta si a es mayor que b
         
-        System.out.println("El resultado de restar "+ a +" - " + b + " es: ");// imprime el resultado
+        System.out.println("El resultado de restar "+ a +" - " + b + " es: "+ resultado);// imprime el resultado
+    }
     }
     
     
